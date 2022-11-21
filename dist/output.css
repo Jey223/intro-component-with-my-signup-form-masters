@@ -715,6 +715,11 @@ video {
   background-color: hsl(154 59% 51% / .8);
 }
 
+.bg-red {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 100% 74% / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }

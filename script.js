@@ -58,7 +58,7 @@ function validateForm(){
        document.getElementById("p3").style.marginBottom = "24px"
 
        document.getElementById("email").placeholder = "";
-       document.getElementById("email").placeholder = "email@example/com";
+       document.getElementById("email").placeholder = "email@example.com";
     //    document.querySelector('#email').style.setProperty('::placeholder','red');
     //    document.getElementById("email").plceholderColor = "hsl(0, 100%, 74%)";
 

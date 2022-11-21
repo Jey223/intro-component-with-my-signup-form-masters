@@ -77,6 +77,8 @@ function validateForm(){
         document.getElementById("p4").style.marginBottom = "24px"
  
         document.getElementById("password").placeholder = "";
+
+        document.getElementById("eye-cursor").style.display = "none";
  
  
      }
@@ -170,16 +172,40 @@ function changePassword(){
         document.getElementById("icon4").style.display = "block";
         document.getElementById("password_input_border").style.borderColor = "hsl(0, 100%, 74%)";
         document.getElementById("p4").style.display = "block";
-        document.getElementById("p4").style.marginBottom = "24px"
+        document.getElementById("p4").style.marginBottom = "24px";
+        document.getElementById("eye-cursor").style.display = "none";
 
         document.getElementById("password").placeholder = "";
+
 
     }
     else{
         document.getElementById("icon4").style.display = "none";
         document.getElementById("password_input_border").style.borderColor = "rgba(229, 231, 235, 1)";
         document.getElementById("p4").style.display = "none";
+        document.getElementById("eye-cursor").style.display = "block";
+        document.getElementById("eye-cursor").style.display = "flex";
+
+
 
     }
 }
 
+
+let passwordToggle = document.querySelector('#eye-cursor');
+
+passwordToggle.addEventListener('click', function(){
+    let password = document.querySelector('#password')
+
+    if (password.type === 'password') {
+        password.type = 'text';
+        document.querySelector('#eye-slash').style.display = "none";
+    }
+    else{
+        password.type = 'password';
+        document.querySelector('#eye-slash').style.display = "block";
+    }
+
+    password.focus();
+
+})

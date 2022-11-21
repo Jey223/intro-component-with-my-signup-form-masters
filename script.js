@@ -74,7 +74,7 @@ function validateForm(){
         document.getElementById("icon4").style.display = "block";
         document.getElementById("password_input_border").style.borderColor = "hsl(0, 100%, 74%)";
         document.getElementById("p4").style.display = "block";
-        document.getElementById("p4").style.marginBottom = "24px"
+        document.getElementById("p4").style.marginBottom = "20px"
  
         document.getElementById("password").placeholder = "";
 

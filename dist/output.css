@@ -621,6 +621,10 @@ video {
   max-height: 80vh;
 }
 
+.max-h-\[85vh\] {
+  max-height: 85vh;
+}
+
 .w-full {
   width: 100%;
 }

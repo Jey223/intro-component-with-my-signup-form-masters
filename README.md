@@ -92,7 +92,6 @@ function(){
 
 ## Author
 
-- Website - [Udoh Julie](https://www.your-site.com)
 - Frontend Mentor - [@Jey223](https://www.frontendmentor.io/profile/Jey223)
 - Twitter - [@juliewice3](https://www.twitter.com/juliewice3)
 

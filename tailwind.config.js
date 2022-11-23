@@ -8,13 +8,17 @@ module.exports = {
         'mobile': "url('/images/bg-intro-mobile.png')",
       },
       screens: {
+        'ms': {'max': '375px'},
+        // => @media (max-width: 375px)
+        'ma': {'min': '376px'},
+        // => @media (max-width: 376px)
         'ad': {'max': '768px'},
-        // => @media (max-width: 768px) { ... }
+        // => @media (max-width: 768px)
         'mx': {'max': '1000px'},
         // => @media (max-width: 1000px)
         'mn': {'max': '566px'},
         // => @media (max-width: 566px)
-        'ms': {'max': '366px'},
+       
 
 
         
